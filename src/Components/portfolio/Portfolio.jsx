@@ -11,6 +11,14 @@ const projects = [
     demoUrl: "https://cmb-menuiserie.com/",
     githubUrl: "#"
   },
+
+  {
+    title: "Josephine Files Converter",
+    category: "Web Application",
+    imageUrl: "/jfsconv.png",
+    demoUrl: "",
+    githubUrl: ""
+  },
   {
     title: "Contact Book",
     category: "Web Application",
