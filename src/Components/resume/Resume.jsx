@@ -33,7 +33,7 @@ const Resume = () => {
   return (
     <section id="resume">
       <div className="resume-container">
-        <h2>My Experience</h2>
+        <h2>My Freelance Experience</h2>
         <div className='align'>
         <div className="myline"></div>
         </div>
