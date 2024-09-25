@@ -24,7 +24,9 @@ const Navbar = () => {
     <>
       <nav className="navbar">
         <div className="navbar-logo">
+          <a href="#">
           <h1><span className="dot">G</span>lody<span className="dot">.</span></h1>
+          </a>
         </div>
         <div className="navbar-menu" onClick={toggleSidebar}>
           <div className={`navbar-hamburger ${isSidebarOpen ? 'open' : ''}`}>

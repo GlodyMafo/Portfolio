@@ -16,6 +16,15 @@
   border-bottom: 1px solid rgba(255, 255, 255, .1 );
 }
 
+a{
+  color:white ;
+  text-decoration: none;
+}
+
+.navbar-logo{
+  cursor: pointer;
+}
+
 .navbar-logo h1 {
   margin-left: 60px;
   font-size: 24px;
