@@ -16,8 +16,8 @@ const projects = [
     title: "Josephine Files Converter",
     category: "Web Application",
     imageUrl: "/jfsconv.png",
-    demoUrl: "",
-    githubUrl: ""
+    demoUrl: "https://josephinefc.onrender.com",
+    githubUrl: "https://github.com/GlodyMafo/jsfcov"
   },
   {
     title: "Contact Book",
