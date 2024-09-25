@@ -1,0 +1,92 @@
+
+.home {
+  background-image: url('/public/bg1.jpg');
+  background-position: center;
+  background-size: cover;
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+  }
+  
+  .content {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+  }
+  
+  .content h1 {
+    font-size: 48px;
+    margin: 0;
+  }
+  
+  .content p {
+    font-size: 24px;
+  }
+  
+  .content .highlight {
+    color: var(--main-color);
+  }
+  
+  .buttons {
+    margin-top: 20px;
+  }
+  
+  .buttons .btn {
+    padding: 10px 20px;
+    border: 2px solid var(--main-color);
+    background: none;
+    border-radius: 50px;
+    width: 170px;
+    height: 50px;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 0 10px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .buttons .btn.hire-me {
+    background-color: var(--main-color);
+  }
+  
+  .buttons .btn.download-cv {
+    border-color: var(--main-color);
+  }
+  
+  .buttons .download-cv:hover {
+    background-color: var(--main-color);
+    color: var(--text-color);
+  }
+  a{
+    text-decoration: none;
+  }
+  @media screen and (max-width: 700px) {
+    .buttons .btn.download-cv {
+      border-color: var(--main-color);
+      margin-top: 20px;
+    }
+      .content h1 {
+        font-size: 40px;
+        margin: 0;
+      }
+    .buttons {
+      margin-top: 30px;
+    }
+    }
+  
+  
