@@ -12,7 +12,7 @@ import {
   FaNode
 } from 'react-icons/fa';
 import {
-  SiTailwindcss, SiAdobephotoshop, SiAdobeillustrator, SiPostgresql,SiWordpress,SiExpress} from 'react-icons/si';
+  SiTailwindcss, SiAdobephotoshop, SiAdobeillustrator, SiPostgresql,SiWordpress,SiExpress,SiFigma} from 'react-icons/si';
 import './TechIcons.css'; 
 
 const technologies = [
@@ -94,6 +94,13 @@ const technologies = [
     icon: SiWordpress,
     color: '#21759B', 
     ringColor: 'ring-blue-500',
+  },
+  
+  {
+    name: 'Figma',
+    icon: SiFigma, // Ajout de Figma
+    color: '#F24E1E',
+    ringColor: 'ring-orange-500',
   },
   {
     name: 'Photoshop',
