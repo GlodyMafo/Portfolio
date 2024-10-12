@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 .momentum {
   --uib-size: 40px;
   --uib-speed: 1s;
