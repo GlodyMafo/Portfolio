@@ -55,7 +55,7 @@ const technologies = [
   {
     name: 'Node.js',
     icon: FaNode,
-    color: '#339933', // Couleur officielle Node.js
+    color: '#339933', 
     ringColor: 'ring-green-500',
   },
   {
@@ -98,7 +98,7 @@ const technologies = [
   
   {
     name: 'Figma',
-    icon: SiFigma, // Ajout de Figma
+    icon: SiFigma, 
     color: '#F24E1E',
     ringColor: 'ring-orange-500',
   },
